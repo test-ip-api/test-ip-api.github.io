@@ -36,7 +36,7 @@
     </style>
     <script>
      window.addEventListener("load", () => {
-       const ipAddress = "130.162.164.202";
+       const ipAddress = "140.238.68.120";
        const channel = new MessageChannel();
        window.parent.postMessage("port", "*", [channel.port2]);
        channel.port1.onmessage = (event) => {
